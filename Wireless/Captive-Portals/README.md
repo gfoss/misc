@@ -1,13 +1,22 @@
-misc
-====
+#[Basic Wireless Captive Portals]
 
-miscellaneous scripts that are constantly being added to and improved upon...
+greg.foss[at]owasp.org - 1/26/2015 - version 0.1 Beta
+
+AppSec California Presentation Slides --> http://www.slideshare.net/heinzarelli/wifi-hotspot-attacks
 
 -----
 
-#[Liability]
+#[What]
 
-These scripts were generated for authorised security assessment use. I am not liable for any illegal activities reltaed to these scripts. By using these scripts you agree to have read and understand this and will only use these scripts legally in authorized penetration tests.
+This is a basic Wireless Captive Portal that is meant to be expanded upon based on the target use-case. I put this together to help folks out with deploying captive portals on various devices without having to go through the guess-work involved in configuring captive portals.
+
+-----
+
+#[How]
+
+This project consists of two captive portal options. The first 'Fake-AP' ins a basic landing page that can be deployed easily using <a href="https://github.com/silverfoxx/pwnstar/" target="_blank">PwnSTAR</a> or manually. The second folder 'Pineapple' is made for deploying a fake AP on a <a href="http://hakshop.myshopify.com/products/wifi-pineapple" target="_blank">Wi-Fi Pineapple</a>.
+
+Depending on the use-case, all you need to do is take this template, create some basic CSS, add images, and voila you have a nice fake captive portal. The real trick here (especially when using the Pineapple is to build upon the already working splash pages and form processors).
 
 -----
 

