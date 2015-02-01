@@ -14,9 +14,9 @@ This is a basic Wireless Captive Portal that is meant to be expanded upon based 
 
 #[How]
 
-This project consists of two captive portal options. The first 'Fake-AP' ins a basic landing page that can be deployed easily using <a href="https://github.com/silverfoxx/pwnstar/" target="_blank">PwnSTAR</a> or manually. The second folder 'Pineapple' is made for deploying a fake AP on a <a href="http://hakshop.myshopify.com/products/wifi-pineapple" target="_blank">Wi-Fi Pineapple</a>.
+This project consists of two captive portal options. The first 'Fake-AP' is a basic landing page that can be deployed easily using <a href="https://github.com/silverfoxx/pwnstar/" target="_blank">PwnSTAR</a> or manually. The second folder 'Pineapple' is made for deploying a fake AP on a <a href="http://hakshop.myshopify.com/products/wifi-pineapple" target="_blank">Wi-Fi Pineapple</a>.
 
-Depending on the use-case, all you need to do is take this template, create some basic CSS, add images, and voila you have a nice fake captive portal. The real trick here (especially when using the Pineapple is to build upon the already working splash pages and form processors).
+Depending on the use-case, all you need to do is take this template, create some basic CSS, add images, and voila you have a nice fake captive portal. The real trick here (especially when using the Pineapple is to build upon the already working splash pages and form processors). You can also take the key aspects of the code and apply them to a form processor that you already have depending on the deployment option.
 
 -----
 
