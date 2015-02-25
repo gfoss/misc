@@ -1,4 +1,4 @@
-# LogRhythm Labs - Document Bugging
+# LogRhythm Labs - Document Bugger
  
  greg.foss[at]logrhythm.com
 
@@ -24,7 +24,7 @@ This script simply automates the process of embedding webbugs in documents.
 
 #Webbug Server Parsing
 		
-SIEM parsing rules were developed to work with Webbugserver: https://bitbucket.org/ethanr/webbugserver
+SIEM parsing rules developed to integrate Webbugserver into LogRhythm: https://bitbucket.org/ethanr/webbugserver
 
 LogRhythm RegEX for Webbug Server:
 		
