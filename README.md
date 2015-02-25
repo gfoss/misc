@@ -1,19 +1,19 @@
 misc
 ====
 
-miscellaneous scripts that are constantly being added to and improved upon...
+Miscellaneous scripts that do random things. This repo is constantly being added to and improved upon...
 
 -----
 
 #[Liability]
 
-These scripts were generated for authorised security assessment use. I am not liable for any illegal activities reltaed to these scripts. By using these scripts you agree to have read and understand this and will only use these scripts legally in authorized penetration tests.
+These scripts were generated for authorised security assessment use. The author is not liable for any illegal activities reltaed to these scripts. By using these scripts you agree to have read and understand this and will only use these scripts legally in authorized penetration tests.
 
 -----
 
 #[License]
 
-Copyright (c) 2015, Greg Foss All rights reserved.
+Copyright (c) 2015, Greg Foss - All rights reserved. This applies to all code within this repo.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 

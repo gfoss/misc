@@ -1,0 +1,7 @@
+# Place files you would like to create+bug / bug within this directory in the following format:
+
+test1.doc
+test2.docx
+test3.xls
+test4.xlsx
+etc...
