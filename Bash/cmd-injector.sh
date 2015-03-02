@@ -19,8 +19,8 @@ if [[ -z $1 ]]; then
     exit 0;
 fi
 
-#url=""
-url=base64_encode("")
+url=""
+#url=base64_encode("")
 cmdfile=""
 rfifile=""
 
