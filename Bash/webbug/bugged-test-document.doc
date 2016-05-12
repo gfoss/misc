@@ -12,8 +12,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link rel=File-List href="test_files/filelist.xml">
 <!--[if gte mso 9]><xml>
  <o:DocumentProperties>
-  <o:Author>Greg Foss</o:Author>
-  <o:LastAuthor>Greg Foss</o:LastAuthor>
+  <o:Author>Some User</o:Author>
+  <o:LastAuthor>Some User</o:LastAuthor>
   <o:Revision>2</o:Revision>
   <o:TotalTime>0</o:TotalTime>
   <o:Created>2015-03-03T03:42:00Z</o:Created>
